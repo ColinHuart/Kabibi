@@ -1,0 +1,19 @@
+{
+  "name": "kabibi",
+  "version": "1.0.0",
+  "description": "First Group Project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/sass/main.scss:./assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinHuart/Kabibi.git"
+  },
+  "author": "Colin Huart/Kimberley Paladini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinHuart/Kabibi/issues"
+  },
+  "homepage": "https://github.com/ColinHuart/Kabibi#readme"
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding-right: 10%;
+  padding-left: 10%;
+  width: 100%;
+  height: 85%;
+  background-size: cover;
+  background-image: url("../img/footer/img-ng-footer.jpg");
+  color: #f5f5f6;
+  font-family: "Noto Serif";
+  font-size: 90%;
+}
+.footer__position {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__list--space {
+  margin-right: 20px;
+  width: 200px;
+}
+.footer__logo--endTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.footer__logo--endLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  position: absolute;
+  top: -12%;
+  left: 50%;
+}
+.footer__hr {
+  border: 1px solid #1f2324;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__relative {
+  position: relative;
+  height: 80px;
+  padding-top: 14px;
+}
+.footer__footerDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__footerDown--copyright {
+  display: block;
+  font-size: x-small;
+  margin-top: 9px;
+  width: 47%;
+}
+.footer__newsletterP {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+
+li {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 9px;
+}
+.nav__socialNetwork {
+  min-width: 25px;
+  min-height: 25px;
+  max-height: 40px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #222627;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #969ba5;
+  font-size: small;
+}
+.nav__socialNetwork:hover {
+  background-color: #c3a34f;
+  color: white;
+  cursor: pointer;
+}
+
+.yellow {
+  color: #c3a34f;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 35px;
+  text-align: center;
+}
+
+textarea {
+  color: #1f2324;
+  padding: 6px 0 0 4px;
+}
+
+button {
+  color: white;
+  background-color: #c3a34f;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
