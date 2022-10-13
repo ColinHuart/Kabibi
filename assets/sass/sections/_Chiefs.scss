@@ -1,0 +1,65 @@
+.backgroundChief {
+  /* background: rgb(43, 43, 43);
+  background: radial-gradient(
+    circle,
+    rgba(43, 43, 43, 1) 0%,
+    rgba(9, 13, 16, 1) 48%
+  );*/
+  background-image: url("../../../assets/img/our-chefs/imgbg-ourchefs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sectionChief {
+  padding-right: 10%;
+  padding-left: 10%;
+
+  position: relative;
+
+  height: 680px;
+
+  font-family: "Noto Serif";
+
+  &__titles {
+    position: relative;
+    z-index: 5;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    &--h1 {
+      font-size: 200%;
+      font-weight: lighter;
+      display: block;
+      margin-bottom: 15px;
+    }
+    &--h6 {
+      font-weight: lighter;
+    }
+  }
+}
+.titleBackgroundChief {
+  z-index: 1;
+  font-size: 1000%;
+  font-weight: lighter;
+  position: absolute;
+  top: 3%;
+  left: 0%;
+  opacity: 0.3;
+  color: rgba(43, 43, 43);
+}
+.chiefGrid {
+  margin-top: 100px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  &__img {
+    width: 200px;
+    height: 260px;
+  }
+}
