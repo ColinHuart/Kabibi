@@ -84,28 +84,36 @@
 .sectionCategory2 {
   padding-right: 10%;
   padding-left: 10%;
-  height: 333px;
+  height: 380px;
   position: relative;
-  &__centerDish {
-    position: absolute;
-    top: -32%;
-    left: 32%;
-    border-radius: 50%;
-    border: #ffffff solid 25px;
-    overflow: hidden;
-    &--img2 {
-      width: 400px;
-      height: 400px;
-    }
-  }
+
   &__otherDishes {
     padding-top: 40px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    &--dishes {
-      width: 220px;
+    position: relative;
+    &--centerdish {
+      position: absolute;
+
+      border-radius: 50%;
+      border: #ffffff solid 25px;
+      overflow: hidden;
+      top: -150px;
+      width: 500px;
+      height: 500px;
+      background-image: url("../../../assets/img/gallery/imgfood2.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &--dishes1 {
+      width: 300px;
+      margin-left: 600px;
+    }
+    &--dishes2 {
+      width: 250px;
     }
   }
 }
