@@ -1,0 +1,143 @@
+$yellow: #c3a34f;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.footer {
+  padding-right: 10%;
+  padding-left: 10%;
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-image: url("../img/footer/img-ng-footer.jpg");
+
+  color: #f5f5f6;
+  font-family: "Noto Serif";
+  font-size: 90%;
+  &__position {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--space {
+      margin-right: 20px;
+      width: 200px;
+    }
+  }
+
+  &__logo {
+    &--endTitle {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+    }
+    &--endLogo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50px;
+      position: absolute;
+      top: -12%;
+      left: 50%;
+    }
+  }
+
+  &__hr {
+    border: 1px solid #1f2324;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__relative {
+    position: relative;
+    height: 80px;
+    padding-top: 14px;
+  }
+  &__footerDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--copyright {
+      display: block;
+      font-size: x-small;
+      margin-top: 9px;
+      width: 47%;
+    }
+  }
+  &__newsletterP {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+}
+ul {
+  list-style-type: none;
+  display: block;
+}
+li {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 9px;
+  &__socialNetwork {
+    min-width: 25px;
+    min-height: 25px;
+    max-height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #222627;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+    &:hover {
+      background-color: $yellow;
+
+      cursor: pointer;
+    }
+    &--linknav {
+      color: #969ba5;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+.yellow {
+  color: $yellow;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 35px;
+  text-align: center;
+}
+textarea {
+  color: #1f2324;
+  padding: 6px 0 0 4px;
+}
+button {
+  color: white;
+  background-color: #c3a34f;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+i:hover {
+  cursor: pointer;
+}
