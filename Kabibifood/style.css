@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap%27');
+
+*{  padding: 0%;  
+    margin: 0;
+    box-sizing: border-box;}
+
+
+.page1 {
+    background-image: url("Food.jpg"); 
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.quality{   
+    color: white;
+    font-family: "Noto Serif"; 
+    font-size: 800%;
+    line-height: 120px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.explore {  
+    color: white;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo { 
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    width: 110px;
+    height: 110px;
+}
+
+.page1-2 {
+
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page1-3{
+    color: white;
+}
+.page1-4{
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    background-color: bisque;
+    
+}
+.page3 {
+    background-color: white;
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logopage3 {
+    width: 270px;
+    margin-right: 50px;
+
+}
+.logopage3-1 {
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    width: 110px;
+    height: 110px;
+} 
+.titrepage3{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+.soustitrepage3 {
+    text-align: center;
+}
+.body3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 70px;
+}
